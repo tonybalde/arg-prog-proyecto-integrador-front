@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,100;1,200;1,300;1,500;1,700;1,900&display=swap');
+
+
+
+
+/* Paleta de Colores definida por el cliente */
+:root {
+    --salmon: #FFA5AB;
+    --calabaza: #FC7300;
+    --indigo: #00425A;
+    --negro: #181823;
+    --blanco: #EFF5F5;    
+    
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Belanosima", Arial;
+}
+
+#encabezado{
+    background-color: var(--negro);
+}
+
+
+#navbar > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    gap: 8px;
+    margin: auto;
+}
+
+#navbar > ul > li{ 
+    list-style: none;
+    
+}
+
+#navbar > ul > li > a{
+    text-decoration: none;
+}
+
+
+.nav-links{
+    color: var(--blanco);
+}
